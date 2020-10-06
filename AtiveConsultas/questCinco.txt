@@ -1,0 +1,4 @@
+5.
+ a)Se houver valores nulos nos dados pode acontecer em uma consulta aninhada dá um problema de não encontrar dados, pois algumas consultas necessitam de valores para executar.
+ b)Left mostra todas a linhas da esquerda de uma tabela, mesmo não havendo nada no lado direito, Right faz o mesmo mas mostra a linhas da direita da tabela, mesmo não havendo na correspondente na esquerda.
+ c)Pois full seria juntar duas tabelas, o que acontece é que tais tabelas não podem ter          valores nulos se houver irar acontecer que na união ficar linha da tabela sem valores, no maria a opção é usar um UNION que faz a união de tabelas.
