@@ -1,0 +1,5 @@
+ Collations elas definem as regras para comparação entre caracteres do charset.
+ Há collations para comparar caracteres de diferentes idiomas, para ignorar (ou não) letras minúsculas e maiúculas, ou acentuação.
+ Já os caracteres Esses são os chamados "character sets" ou, de forma abreviada, "charsets". Há charsets pra vários idiomas. 
+ O mais usado com o português é o "latin1", que inclui todos os nossos caracteres acentuados. Além de que
+ cada coluna de uma mesma tabela pode ter charsets e collations diferentes. Já as tabelas e bancos de dados não têm charsets ou collations próprios, mas pode-se definir seu valor padrão ao criá-los.
